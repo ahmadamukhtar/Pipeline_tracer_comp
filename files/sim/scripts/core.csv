@@ -1,0 +1,4 @@
+pc,instr,gpr,csr,binary,mode,instr_str,operand,pad
+80000004,addi,t1:00000000,,00000313,,"addi	x6,x0,0","t1,zero,0",
+8000000c,auipc,s3:8000000c,,00000997,,"auipc	x19,0x0","s3,0x0",
+80000010,addi,s3:80000000,,00c98993,,"addi	x19,x19,12","s3,s3,12",
